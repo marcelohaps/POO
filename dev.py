@@ -1,4 +1,6 @@
 print("Hello")
 
 class Usuario:
-    pass
+    def __init__(self, nome):
+        self.nome = nome
+        
